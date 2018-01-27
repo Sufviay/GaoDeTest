@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="qfg-Qo-uCl">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="tyV-J9-2ax">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u89-L8-LMW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="qfg-Qo-uCl" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Vcr-bM-fnl">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dab-GE-sH9" kind="relationship" relationship="rootViewController" id="6By-wc-wct"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="22" y="83"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YFt-dN-Hdb">
+            <objects>
+                <viewController id="dab-GE-sH9" customClass="ViewController" customModule="GaoDeTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oJi-Zd-jT5"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dua-3m-r6T"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EVY-qX-gyk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpq-rV-mMx">
+                                <rect key="frame" x="112.5" y="313" width="150" height="40"/>
+                                <color key="backgroundColor" red="0.111885576390098" green="1" blue="0.86773746485984782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="Mmb-D5-GJJ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="SHp-Xm-IUg"/>
+                                    <constraint firstAttribute="height" constant="40" id="sUD-4U-Ft6"/>
+                                </constraints>
+                                <state key="normal" title="点击进入地图"/>
+                                <connections>
+                                    <action selector="clickButton:" destination="dab-GE-sH9" eventType="touchUpInside" id="bGm-ZI-uKh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="gpq-rV-mMx" firstAttribute="centerY" secondItem="EVY-qX-gyk" secondAttribute="centerY" id="9d9-Bg-4dx"/>
+                            <constraint firstItem="gpq-rV-mMx" firstAttribute="centerX" secondItem="EVY-qX-gyk" secondAttribute="centerX" id="wD6-kr-dQU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Aod-s1-Qsb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AQl-Bu-aoq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="788" y="64"/>
+        </scene>
+    </scenes>
+</document>

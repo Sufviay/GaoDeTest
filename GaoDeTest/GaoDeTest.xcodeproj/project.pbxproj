@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		314C9A092019D4C200B477A6 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C9A082019D4C200B477A6 /* MapController.swift */; };
+		314C9A0B2019D56500B477A6 /* MapViewTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C9A0A2019D56500B477A6 /* MapViewTool.swift */; };
+		314C9A0D201ADCA400B477A6 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C9A0C201ADCA400B477A6 /* MapModel.swift */; };
+		314C9A0F201B2BDC00B477A6 /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C9A0E201B2BDC00B477A6 /* CustomAnnotationView.swift */; };
+		31E7949E20186E2800B130FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7949D20186E2800B130FE /* AppDelegate.swift */; };
+		31E794A020186E2800B130FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E7949F20186E2800B130FE /* ViewController.swift */; };
+		31E794A320186E2900B130FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E794A120186E2900B130FE /* Main.storyboard */; };
+		31E794A520186E2900B130FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31E794A420186E2900B130FE /* Assets.xcassets */; };
+		31E794A820186E2900B130FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E794A620186E2900B130FE /* LaunchScreen.storyboard */; };
+		31E794B320186E2900B130FE /* GaoDeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E794B220186E2900B130FE /* GaoDeTestTests.swift */; };
+		31E794BE20186E2900B130FE /* GaoDeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E794BD20186E2900B130FE /* GaoDeTestUITests.swift */; };
+		78C43835874A4730A12FB449 /* Pods_GaoDeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17078B88372CFAAAFF41C448 /* Pods_GaoDeTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31E794AF20186E2900B130FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31E7949220186E2800B130FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31E7949920186E2800B130FE;
+			remoteInfo = GaoDeTest;
+		};
+		31E794BA20186E2900B130FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31E7949220186E2800B130FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31E7949920186E2800B130FE;
+			remoteInfo = GaoDeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17078B88372CFAAAFF41C448 /* Pods_GaoDeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaoDeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		314C9A082019D4C200B477A6 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		314C9A0A2019D56500B477A6 /* MapViewTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewTool.swift; sourceTree = "<group>"; };
+		314C9A0C201ADCA400B477A6 /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		314C9A0E201B2BDC00B477A6 /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
+		31E7949A20186E2800B130FE /* GaoDeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaoDeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E7949D20186E2800B130FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31E7949F20186E2800B130FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31E794A220186E2900B130FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31E794A420186E2900B130FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31E794A720186E2900B130FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31E794A920186E2900B130FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E794AE20186E2900B130FE /* GaoDeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaoDeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E794B220186E2900B130FE /* GaoDeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaoDeTestTests.swift; sourceTree = "<group>"; };
+		31E794B420186E2900B130FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E794B920186E2900B130FE /* GaoDeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaoDeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E794BD20186E2900B130FE /* GaoDeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaoDeTestUITests.swift; sourceTree = "<group>"; };
+		31E794BF20186E2900B130FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E794CD20197DFC00B130FE /* GD-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GD-Bridging-Header.h"; sourceTree = "<group>"; };
+		BBC5B3262B7FA67DACEB535B /* Pods-GaoDeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaoDeTest/Pods-GaoDeTest.release.xcconfig"; sourceTree = "<group>"; };
+		EFC2A1CD7FEFE84C010DDCFE /* Pods-GaoDeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaoDeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaoDeTest/Pods-GaoDeTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31E7949720186E2800B130FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C43835874A4730A12FB449 /* Pods_GaoDeTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E794AB20186E2900B130FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E794B620186E2900B130FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31E7949120186E2800B130FE = {
+			isa = PBXGroup;
+			children = (
+				31E794CD20197DFC00B130FE /* GD-Bridging-Header.h */,
+				31E7949C20186E2800B130FE /* GaoDeTest */,
+				31E794B120186E2900B130FE /* GaoDeTestTests */,
+				31E794BC20186E2900B130FE /* GaoDeTestUITests */,
+				31E7949B20186E2800B130FE /* Products */,
+				9E56791742D75D1B8188AD5B /* Pods */,
+				8DA43EE5898BB2AC905E29FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31E7949B20186E2800B130FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31E7949A20186E2800B130FE /* GaoDeTest.app */,
+				31E794AE20186E2900B130FE /* GaoDeTestTests.xctest */,
+				31E794B920186E2900B130FE /* GaoDeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31E7949C20186E2800B130FE /* GaoDeTest */ = {
+			isa = PBXGroup;
+			children = (
+				31E7949D20186E2800B130FE /* AppDelegate.swift */,
+				31E7949F20186E2800B130FE /* ViewController.swift */,
+				314C9A082019D4C200B477A6 /* MapController.swift */,
+				314C9A0A2019D56500B477A6 /* MapViewTool.swift */,
+				314C9A0C201ADCA400B477A6 /* MapModel.swift */,
+				314C9A0E201B2BDC00B477A6 /* CustomAnnotationView.swift */,
+				31E794A120186E2900B130FE /* Main.storyboard */,
+				31E794A420186E2900B130FE /* Assets.xcassets */,
+				31E794A620186E2900B130FE /* LaunchScreen.storyboard */,
+				31E794A920186E2900B130FE /* Info.plist */,
+			);
+			path = GaoDeTest;
+			sourceTree = "<group>";
+		};
+		31E794B120186E2900B130FE /* GaoDeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				31E794B220186E2900B130FE /* GaoDeTestTests.swift */,
+				31E794B420186E2900B130FE /* Info.plist */,
+			);
+			path = GaoDeTestTests;
+			sourceTree = "<group>";
+		};
+		31E794BC20186E2900B130FE /* GaoDeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31E794BD20186E2900B130FE /* GaoDeTestUITests.swift */,
+				31E794BF20186E2900B130FE /* Info.plist */,
+			);
+			path = GaoDeTestUITests;
+			sourceTree = "<group>";
+		};
+		8DA43EE5898BB2AC905E29FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17078B88372CFAAAFF41C448 /* Pods_GaoDeTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E56791742D75D1B8188AD5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFC2A1CD7FEFE84C010DDCFE /* Pods-GaoDeTest.debug.xcconfig */,
+				BBC5B3262B7FA67DACEB535B /* Pods-GaoDeTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31E7949920186E2800B130FE /* GaoDeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E794C220186E2900B130FE /* Build configuration list for PBXNativeTarget "GaoDeTest" */;
+			buildPhases = (
+				FE11B39F881A181C980C78ED /* [CP] Check Pods Manifest.lock */,
+				31E7949620186E2800B130FE /* Sources */,
+				31E7949720186E2800B130FE /* Frameworks */,
+				31E7949820186E2800B130FE /* Resources */,
+				FEB0613A590B5FC316E6A2A0 /* [CP] Embed Pods Frameworks */,
+				4FF4C3B7C698681C987DC400 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaoDeTest;
+			productName = GaoDeTest;
+			productReference = 31E7949A20186E2800B130FE /* GaoDeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31E794AD20186E2900B130FE /* GaoDeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E794C520186E2900B130FE /* Build configuration list for PBXNativeTarget "GaoDeTestTests" */;
+			buildPhases = (
+				31E794AA20186E2900B130FE /* Sources */,
+				31E794AB20186E2900B130FE /* Frameworks */,
+				31E794AC20186E2900B130FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31E794B020186E2900B130FE /* PBXTargetDependency */,
+			);
+			name = GaoDeTestTests;
+			productName = GaoDeTestTests;
+			productReference = 31E794AE20186E2900B130FE /* GaoDeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31E794B820186E2900B130FE /* GaoDeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E794C820186E2900B130FE /* Build configuration list for PBXNativeTarget "GaoDeTestUITests" */;
+			buildPhases = (
+				31E794B520186E2900B130FE /* Sources */,
+				31E794B620186E2900B130FE /* Frameworks */,
+				31E794B720186E2900B130FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31E794BB20186E2900B130FE /* PBXTargetDependency */,
+			);
+			name = GaoDeTestUITests;
+			productName = GaoDeTestUITests;
+			productReference = 31E794B920186E2900B130FE /* GaoDeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31E7949220186E2800B130FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "岁变";
+				TargetAttributes = {
+					31E7949920186E2800B130FE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					31E794AD20186E2900B130FE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31E7949920186E2800B130FE;
+					};
+					31E794B820186E2900B130FE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 31E7949920186E2800B130FE;
+					};
+				};
+			};
+			buildConfigurationList = 31E7949520186E2800B130FE /* Build configuration list for PBXProject "GaoDeTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31E7949120186E2800B130FE;
+			productRefGroup = 31E7949B20186E2800B130FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31E7949920186E2800B130FE /* GaoDeTest */,
+				31E794AD20186E2900B130FE /* GaoDeTestTests */,
+				31E794B820186E2900B130FE /* GaoDeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31E7949820186E2800B130FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E794A820186E2900B130FE /* LaunchScreen.storyboard in Resources */,
+				31E794A520186E2900B130FE /* Assets.xcassets in Resources */,
+				31E794A320186E2900B130FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E794AC20186E2900B130FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E794B720186E2900B130FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FF4C3B7C698681C987DC400 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GaoDeTest/Pods-GaoDeTest-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaoDeTest/Pods-GaoDeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE11B39F881A181C980C78ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GaoDeTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEB0613A590B5FC316E6A2A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GaoDeTest/Pods-GaoDeTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaoDeTest/Pods-GaoDeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31E7949620186E2800B130FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E794A020186E2800B130FE /* ViewController.swift in Sources */,
+				314C9A092019D4C200B477A6 /* MapController.swift in Sources */,
+				31E7949E20186E2800B130FE /* AppDelegate.swift in Sources */,
+				314C9A0B2019D56500B477A6 /* MapViewTool.swift in Sources */,
+				314C9A0F201B2BDC00B477A6 /* CustomAnnotationView.swift in Sources */,
+				314C9A0D201ADCA400B477A6 /* MapModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E794AA20186E2900B130FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E794B320186E2900B130FE /* GaoDeTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31E794B520186E2900B130FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31E794BE20186E2900B130FE /* GaoDeTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31E794B020186E2900B130FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31E7949920186E2800B130FE /* GaoDeTest */;
+			targetProxy = 31E794AF20186E2900B130FE /* PBXContainerItemProxy */;
+		};
+		31E794BB20186E2900B130FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31E7949920186E2800B130FE /* GaoDeTest */;
+			targetProxy = 31E794BA20186E2900B130FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		31E794A120186E2900B130FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31E794A220186E2900B130FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31E794A620186E2900B130FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31E794A720186E2900B130FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31E794C020186E2900B130FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31E794C120186E2900B130FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31E794C320186E2900B130FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC2A1CD7FEFE84C010DDCFE /* Pods-GaoDeTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZT27N77L73;
+				INFOPLIST_FILE = GaoDeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanou.GaoDeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/GD-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31E794C420186E2900B130FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC5B3262B7FA67DACEB535B /* Pods-GaoDeTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZT27N77L73;
+				INFOPLIST_FILE = GaoDeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanou.GaoDeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/GD-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		31E794C620186E2900B130FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaoDeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanou.GaoDeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaoDeTest.app/GaoDeTest";
+			};
+			name = Debug;
+		};
+		31E794C720186E2900B130FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaoDeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanou.GaoDeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaoDeTest.app/GaoDeTest";
+			};
+			name = Release;
+		};
+		31E794C920186E2900B130FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaoDeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanou.GaoDeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GaoDeTest;
+			};
+			name = Debug;
+		};
+		31E794CA20186E2900B130FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GaoDeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanou.GaoDeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GaoDeTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31E7949520186E2800B130FE /* Build configuration list for PBXProject "GaoDeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E794C020186E2900B130FE /* Debug */,
+				31E794C120186E2900B130FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E794C220186E2900B130FE /* Build configuration list for PBXNativeTarget "GaoDeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E794C320186E2900B130FE /* Debug */,
+				31E794C420186E2900B130FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E794C520186E2900B130FE /* Build configuration list for PBXNativeTarget "GaoDeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E794C620186E2900B130FE /* Debug */,
+				31E794C720186E2900B130FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31E794C820186E2900B130FE /* Build configuration list for PBXNativeTarget "GaoDeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E794C920186E2900B130FE /* Debug */,
+				31E794CA20186E2900B130FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31E7949220186E2800B130FE /* Project object */;
+}
